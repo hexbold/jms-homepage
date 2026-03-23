@@ -22,7 +22,6 @@ The site is hosted on GitHub Pages with a custom domain.
 
 1. Push changes to the `main` branch
 2. GitHub Pages automatically deploys
-3. Site available at: https://junge-muenchner-symphoniker.de
 
 ## Project Structure
 
