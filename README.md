@@ -22,6 +22,7 @@ The site is hosted on GitHub Pages with a custom domain.
 
 1. Push changes to the `main` branch
 2. GitHub Pages automatically deploys
+3. Website available at: https://hexbold.github.io/jms-homepage
 
 ## Project Structure
 
