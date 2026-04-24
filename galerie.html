@@ -52,39 +52,135 @@
   <!-- Gallery -->
   <section class="section">
     <div class="container">
-      <h2 class="mb-3">Fotos</h2>
+      <h2 class="mb-3 text-center">Konzerte <span class="text-accent">auswählen</span></h2>
+      <p class="text-muted text-center mb-4" style="max-width: 600px; margin-left: auto; margin-right: auto;">Klicken Sie auf ein Konzert, um alle Fotos anzusehen.</p>
 
-      <div class="gallery-grid">
-        <div class="gallery-item" onclick="openLightbox('images/hero.jpg')">
-          <img src="images/hero.jpg" alt="Konzert Herkulessaal">
+      <div class="concert-covers">
+        <button type="button" class="concert-cover" id="cover-bal-2026" onclick="showConcertGallery('bal-2026')">
+          <img src="images/gallery/Bal-classique-2026/Pere_20260201_192438.jpg" alt="Bal Classique 2026">
+          <div class="concert-cover-title">
+            <h3>Bal Classique</h3>
+            <p>Februar 2026</p>
+          </div>
+        </button>
+
+        <button type="button" class="concert-cover" id="cover-herbst-2025" onclick="showConcertGallery('herbst-2025')">
+          <div class="concert-cover-placeholder">Fotos folgen bald</div>
+          <div class="concert-cover-title">
+            <h3>Herbstkonzert</h3>
+            <p>November 2025</p>
+          </div>
+        </button>
+
+        <button type="button" class="concert-cover" id="cover-operngala-2025" onclick="showConcertGallery('operngala-2025')">
+          <img src="images/gallery/Operngala-2025/IMG_8260.JPG" alt="Operngala 2025">
+          <div class="concert-cover-title">
+            <h3>Operngala „Italienische Nacht"</h3>
+            <p>Juli 2025</p>
+          </div>
+        </button>
+
+        <button type="button" class="concert-cover" id="cover-fruehjahr-2025" onclick="showConcertGallery('fruehjahr-2025')">
+          <img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9731.JPG" alt="Frühjahrskonzert 2025">
+          <div class="concert-cover-title">
+            <h3>Frühjahrskonzert</h3>
+            <p>Mai 2025</p>
+          </div>
+        </button>
+      </div>
+
+      <!-- Bal Classique 2026 -->
+      <div class="concert-gallery" id="gallery-bal-2026">
+        <div class="concert-gallery-header">
+          <h3>Bal Classique · <span class="text-accent">Februar 2026</span></h3>
         </div>
-
-        <div class="gallery-item" onclick="openLightbox('images/gallery/photo2025_DSC04980.JPG_compressed.JPEG')">
-          <img src="images/gallery/photo2025_DSC04980.JPG_compressed.JPEG" alt="Bal Classique 2025">
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox('images/gallery/photo2025_DSC05206.JPG_compressed.JPEG')">
-          <img src="images/gallery/photo2025_DSC05206.JPG_compressed.JPEG" alt="Bal Classique 2025">
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox('images/gallery/photo2025_DSC05335.JPG_compressed.JPEG')">
-          <img src="images/gallery/photo2025_DSC05335.JPG_compressed.JPEG" alt="Bal Classique 2025">
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox('images/gallery/photo2025_DSC05337.JPG_compressed.JPEG')">
-          <img src="images/gallery/photo2025_DSC05337.JPG_compressed.JPEG" alt="Bal Classique 2025">
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox('images/gallery/photo2025_DSC05403.JPG_compressed.JPEG')">
-          <img src="images/gallery/photo2025_DSC05403.JPG_compressed.JPEG" alt="Bal Classique 2025">
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox('images/gallery/photo2025_DSC05443.JPG_compressed.JPEG')">
-          <img src="images/gallery/photo2025_DSC05443.JPG_compressed.JPEG" alt="Bal Classique 2025">
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Asefe_20260201_222317.jpg')"><img src="images/gallery/Bal-classique-2026/Asefe_20260201_222317.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Clara_IMG_1651.jpeg')"><img src="images/gallery/Bal-classique-2026/Clara_IMG_1651.jpeg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Clara_IMG_1655.jpeg')"><img src="images/gallery/Bal-classique-2026/Clara_IMG_1655.jpeg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/David_IMG_20250216_173413.jpg')"><img src="images/gallery/Bal-classique-2026/David_IMG_20250216_173413.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/IMG_2626.JPG')"><img src="images/gallery/Bal-classique-2026/IMG_2626.JPG" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/IMG_2711.JPG')"><img src="images/gallery/Bal-classique-2026/IMG_2711.JPG" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Lukas_IMG_9239.jpeg')"><img src="images/gallery/Bal-classique-2026/Lukas_IMG_9239.jpeg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Magdalena_20260201_205045.jpg')"><img src="images/gallery/Bal-classique-2026/Magdalena_20260201_205045.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Marie_IMG-20260203-WA0007.jpg')"><img src="images/gallery/Bal-classique-2026/Marie_IMG-20260203-WA0007.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Marie_IMG-20260203-WA0043.jpg')"><img src="images/gallery/Bal-classique-2026/Marie_IMG-20260203-WA0043.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Pere_20260201_192438.jpg')"><img src="images/gallery/Bal-classique-2026/Pere_20260201_192438.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Pere_20260201_194330.jpg')"><img src="images/gallery/Bal-classique-2026/Pere_20260201_194330.jpg" alt="Bal Classique 2026"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Bal-classique-2026/Susanna_threema-20260202-001243375.jpg')"><img src="images/gallery/Bal-classique-2026/Susanna_threema-20260202-001243375.jpg" alt="Bal Classique 2026"></div>
         </div>
       </div>
 
-      <p class="text-center text-muted mt-4">Weitere Fotos werden bald hinzugefügt.</p>
+      <!-- Herbstkonzert 2025 (Placeholder) -->
+      <div class="concert-gallery" id="gallery-herbst-2025">
+        <div class="concert-gallery-header">
+          <h3>Herbstkonzert · <span class="text-accent">November 2025</span></h3>
+        </div>
+        <div class="concert-gallery-empty">
+          <p>Fotos werden in Kürze hinzugefügt.</p>
+        </div>
+      </div>
+
+      <!-- Operngala 2025 -->
+      <div class="concert-gallery" id="gallery-operngala-2025">
+        <div class="concert-gallery-header">
+          <h3>Operngala „Italienische Nacht" · <span class="text-accent">Juli 2025</span></h3>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8332.JPG')"><img src="images/gallery/Operngala-2025/IMG_8332.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8320.JPG')"><img src="images/gallery/Operngala-2025/IMG_8320.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8309.JPG')"><img src="images/gallery/Operngala-2025/IMG_8309.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8290.JPG')"><img src="images/gallery/Operngala-2025/IMG_8290.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8270.JPG')"><img src="images/gallery/Operngala-2025/IMG_8270.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8219.JPG')"><img src="images/gallery/Operngala-2025/IMG_8219.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8164.JPG')"><img src="images/gallery/Operngala-2025/IMG_8164.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8137.JPG')"><img src="images/gallery/Operngala-2025/IMG_8137.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_8090.JPG')"><img src="images/gallery/Operngala-2025/IMG_8090.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2307.JPG')"><img src="images/gallery/Operngala-2025/IMG_2307.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2305.JPG')"><img src="images/gallery/Operngala-2025/IMG_2305.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2288.JPG')"><img src="images/gallery/Operngala-2025/IMG_2288.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2287.JPG')"><img src="images/gallery/Operngala-2025/IMG_2287.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2255.JPG')"><img src="images/gallery/Operngala-2025/IMG_2255.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2243.JPG')"><img src="images/gallery/Operngala-2025/IMG_2243.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2235.JPG')"><img src="images/gallery/Operngala-2025/IMG_2235.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2230.JPG')"><img src="images/gallery/Operngala-2025/IMG_2230.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2226.JPG')"><img src="images/gallery/Operngala-2025/IMG_2226.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2172.JPG')"><img src="images/gallery/Operngala-2025/IMG_2172.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2066.JPG')"><img src="images/gallery/Operngala-2025/IMG_2066.JPG" alt="Operngala 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Operngala-2025/IMG_2000.JPG')"><img src="images/gallery/Operngala-2025/IMG_2000.JPG" alt="Operngala 2025"></div>
+        </div>
+      </div>
+
+      <!-- Frühjahrskonzert 2025 -->
+      <div class="concert-gallery" id="gallery-fruehjahr-2025">
+        <div class="concert-gallery-header">
+          <h3>Frühjahrskonzert · <span class="text-accent">Mai 2025</span></h3>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0054.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0054.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0064.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0064.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0084.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0084.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0094.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0094.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0110.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0110.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0354.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0354.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0439.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0439.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0485.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_0485.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9731.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9731.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9756.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9756.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9770.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9770.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9774.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9774.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9802.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9802.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9829.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9829.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9833.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9833.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9842.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9842.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9855.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9855.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9870.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9870.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9902.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9902.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9911.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9911.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9931.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9931.JPG" alt="Frühjahrskonzert 2025"></div>
+          <div class="gallery-item" onclick="openLightbox('images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9936.JPG')"><img src="images/gallery/Fr%C3%BChjahrskonzert-2025/IMG_9936.JPG" alt="Frühjahrskonzert 2025"></div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -115,8 +211,7 @@
         <div>
           <h3>Projekte</h3>
           <ul>
-            <li><a href="https://bal-classique.de" target="_blank" rel="noopener noreferrer">Bal Classique</a></li>
-            <li><a href="https://camerata-muenchen.de" target="_blank" rel="noopener noreferrer">Camerata München</a></li>
+            <li><a href="camerata-muenchen.html" target="_blank" rel="noopener noreferrer">Camerata München</a></li>
           </ul>
         </div>
         <div>

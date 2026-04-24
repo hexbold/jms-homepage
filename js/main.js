@@ -66,3 +66,25 @@ document.addEventListener('keydown', function(e) {
     closeLightbox();
   }
 });
+
+// ========================================
+// Gallery Concert Switcher
+// ========================================
+function showConcertGallery(concertId) {
+  document.querySelectorAll('.concert-gallery').forEach(function(g) {
+    g.classList.remove('active');
+  });
+  document.querySelectorAll('.concert-cover').forEach(function(c) {
+    c.classList.remove('active');
+  });
+
+  var gallery = document.getElementById('gallery-' + concertId);
+  var cover = document.getElementById('cover-' + concertId);
+
+  if (gallery) gallery.classList.add('active');
+  if (cover) cover.classList.add('active');
+
+  if (gallery) {
+    gallery.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
