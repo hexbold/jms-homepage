@@ -7,7 +7,6 @@ Static HTML/CSS website for the Junge Münchner Symphoniker orchestra, hosted on
 - **HTML5** - Semantic markup
 - **CSS3** - Custom styles with CSS variables, flexbox/grid
 - **Vanilla JavaScript** - Mobile menu, gallery lightbox
-- **Fonts** - Google Fonts (Playfair Display, Inter)
 - **Hosting** - GitHub Pages with custom domain
 
 ## Project Structure
@@ -53,4 +52,3 @@ No build step required. Open HTML files directly in browser to preview.
 ## Deployment
 1. Push to main branch
 2. GitHub Pages serves automatically
-3. Custom domain: junge-muenchner-symphoniker.de
